@@ -1,0 +1,46 @@
+@import 'modern-normalize/modern-normalize';
+
+:root {
+  --family:'Roboto', sans-serif;
+  --light-blue-color: #60A5FA;
+  --dark-blue-color:#1E3A8A;
+  --yellow-color:#FBBF24;
+  --black-color-text:#000000;
+  --white-color-text: #FFFFFF;
+  --grey-color:#F3F4F6;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+li{
+  font-family: 'Roboto', sans-serif;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}

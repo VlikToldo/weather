@@ -1,0 +1,13 @@
+.wrapperCardsButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vwh;
+    width: 100%;
+}
